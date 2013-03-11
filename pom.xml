@@ -42,4 +42,17 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 	</dependencies>
+   
+	<distributionManagement>
+		<repository>
+			<id>echovantage-releases</id>
+			<name>EchoVantage Internal Releases Repository</name>
+			<url>http://mvn.echo-v.net/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>echovantage-snapshots</id>
+			<name>EchoVantage Internal Snapshots Repository</name>
+			<url>http://mvn.echo-v.net/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
